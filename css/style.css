@@ -1,0 +1,240 @@
+/*--- GENERAL ---*/
+
+body {
+	margin: 0;
+
+}
+
+body:first-child{
+
+
+
+
+
+}
+
+.container {
+padding-right: 15px;
+padding-left: 15px;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+
+.section {
+height: 100vh;
+width: 100%;
+display: table;
+position: relative;	
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 19px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #0069ab;
+  text-decoration: none;
+}
+.section h2 {
+
+	margin-top: 20vh;
+	margin-bottom: 10vh;
+}
+
+/*---Nav---*/
+#nav {
+    background: #333;
+    bottom: 0;
+    overflow: hidden;
+    height: 32px;
+    z-index: 3;
+    width: 100%;
+	display: table;
+	position: absolute;	
+}
+#nav ul li {
+    border-left: 1px solid #999;
+    border-right: 1px solid #cacaca;
+    float:right;
+    font-weight: bold;
+    line-height:35px;
+    list-style: none;
+    text-transform: uppercase;
+}
+#nav a {
+    color: white;
+    display:block;
+    padding: 0 20px;
+    text-decoration:none;
+}
+#nav a:hover {
+    color:gray;
+}
+
+.navTop {
+	top: 0;
+	position: fixed !important;
+}
+
+
+
+
+
+/* --- Hero --- */
+
+.land-hero {
+	padding-top: 25vh;
+	position: relative;
+	text-align: center;
+	height: 100vh;
+	width: 100%;
+	display: table;
+	position: relative;	
+}
+
+.hero-container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hero-header {
+	max-width: 50%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hero-sub {
+	margin-bottom: 100px;
+
+}
+
+.hero-name {
+
+
+}
+
+.hero-background {
+	position: fixed;
+	left: 0;
+	z-index: -1;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	opacity: .6;
+	background-image: url('https://wallpapercave.com/wp/kSQdCxM.jpg');
+
+}
+/*---ABOUT---*/
+.about {
+
+	background-color: #D3D3D3;
+}
+
+/*---PORTFOLIO---*/
+#portfolio {}
+
+.portfolio {
+	background-color: #9ec3ff;
+}
+
+.thumb {
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 1rem;
+	border: solid 4px transparent;
+	line-height: 0;
+}
+
+.thumb:hover {
+
+
+}
+
+.thumb-overlay {
+	color: #fffff;
+
+}
+
+.modal-window {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.modal-window:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-close {
+  color: #aaa;
+  line-height: 50px;
+  font-size: 80%;
+  text-align: right;
+  width: 70px;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.modal-close:hover {
+  color: #000;
+}
+
+.modal-content {
+	background-color: #ffffff;
+	height: 70vh;
+	width: 70vw;
+	margin: auto;
+
+
+}
+
+.modalbg1 {
+    background: url(http://magazine.viterbi.usc.edu/wp-content/uploads/BSP_054.jpg) no-repeat center center fixed;
+    background-attachment: fixed;
+    background-size: auto auto;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+ .modal-content-container {
+padding: 30px;
+height: 90%;
+
+ }
