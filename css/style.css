@@ -152,6 +152,18 @@ position: relative;
 	background-color: #D3D3D3;
 }
 
+.about-cell {
+
+padding: 30px;
+
+
+}
+
+.about .fa {
+margin-bottom: 8vh;
+
+}
+
 /*---PORTFOLIO---*/
 #portfolio {}
 
@@ -165,17 +177,59 @@ position: relative;
 	margin-bottom: 1rem;
 	border: solid 4px transparent;
 	line-height: 0;
-}
-
-.thumb:hover {
-
-
+	background-color: 000;
 }
 
 .thumb-overlay {
 	color: #fffff;
 
 }
+
+.thumb img {
+-webkit-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.80); 
+box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.80);
+background: : black;
+-webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+}
+
+
+.thumb img:hover {
+-webkit-box-shadow: 1px 2px 5px 0px rgba(255,255,255,0.85); 
+box-shadow: 1px 2px 5px 0px rgba(255,255,255,0.85);
+opacity: .5;
+-webkit-filter: blur(3px);
+
+}
+
+.thumb .thumb-title {
+position: absolute;
+opacity: 0;
+color: #ffffff;
+margin-top: 10%;
+margin-left: 11%;
+-webkit-transition: all .2s ease;
+-moz-transition: all .2s ease;
+-o-transition: all .2s ease;
+transition: all .2s ease;
+}
+
+.thumb:hover .thumb-title {
+opacity: 1;
+color: #ffffff;
+margin-top: 5%;
+margin-left: 11%;
+}
+
+.dark {
+color: black;
+background: black;
+height: 100%;
+
+}
+
 
 .modal-window {
   position: fixed;
