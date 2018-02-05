@@ -2,6 +2,8 @@
 
 body {
 	margin: 0;
+  transition: width 2s;
+    -webkit-transition: width 2s;
 
 }
 
@@ -29,6 +31,14 @@ display: table;
 position: relative;	
 }
 
+.half-section {
+height: 50vh;
+width: 100%;
+display: table;
+position: relative;	
+
+}
+
 .btn {
   background: #3498db;
   background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
@@ -53,8 +63,12 @@ position: relative;
 }
 .section h2 {
 
-	margin-top: 20vh;
+	margin-top: 10vh;
 	margin-bottom: 10vh;
+}
+
+#contact h3 {
+  margin-top: 20vh;
 }
 
 /*---Nav---*/
@@ -113,12 +127,18 @@ position: relative;
 	margin-right: auto;
 }
 
+.hero-content {
+left: 25%;
+position: fixed;
+
+
+}
+
 .hero-header {
 	max-width: 50%;
 	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
 }
+
 
 .hero-sub {
 	margin-bottom: 100px;
@@ -147,22 +167,82 @@ position: relative;
 
 }
 /*---ABOUT---*/
-.about {
-
+#about {
 	background-color: #D3D3D3;
-}
-
-.about-cell {
-
-padding: 30px;
-
+  transition: width 2s;
+  -webkit-transition: width 2s;
 
 }
 
-.about .fa {
-margin-bottom: 8vh;
+.about-cell, .contact-cell {
+
+	padding: 30px;
+
 
 }
+
+.about-icon {
+	margin-bottom: 5vh;
+
+}
+
+#skillbar {
+margin: 0;
+position: relative;
+margin-bottom: 2vh;
+
+
+}
+
+.skill-set {
+	position: relative;
+}
+
+.skill-set p {
+margin-top: 1rem;
+margin-bottom: .5rem;
+}
+
+.skillbar {
+ 	background:#000; 
+    height: 1vh; 
+
+}
+
+.skillfill1 {
+    height: 1vh;
+    background:#2187e7; 
+    box-shadow:0px 0px 10px 1px;
+    position: absolute;
+    transition: width 2s;
+    -webkit-transition: width 2s;
+    width: 70%;
+}
+
+.skillfill2 {
+    height: 1vh;
+    background:#2187e7; 
+    box-shadow:0px 0px 10px 1px;
+    position: absolute;
+    transition: width 3s;
+    -webkit-transition: width 3s;
+    width: 75%;
+}
+
+.skillfill3 {
+    height: 1vh;
+    background:#2187e7; 
+    box-shadow:0px 0px 10px 1px;
+    position: absolute;
+    transition: width 4s;
+    -webkit-transition: width 4s;
+    width: 60%;
+}
+
+.skill-less {
+    width: 0;
+}
+
 
 /*---PORTFOLIO---*/
 #portfolio {}
@@ -256,9 +336,8 @@ height: 100%;
   line-height: 50px;
   font-size: 80%;
   text-align: right;
-  width: 70px;
   text-decoration: none;
-  margin-right: 30px;
+  margin-right: 3vh;
 }
 
 .modal-close:hover {
@@ -287,8 +366,34 @@ height: 100%;
 }
 
 
- .modal-content-container {
-padding: 30px;
-height: 90%;
+.modal-content-container {
+  padding: 5vh;
+	height: 90%;
 
  }
+
+/*--- CONTACT ---*/
+
+#footer {
+background: #D3D3D3;
+height: 10vh;
+opacity: .7;
+}
+
+#footer i {
+  margin-top: 2vh;
+  margin-left: 1vh;
+  transition: all .1s ease;
+  color: 
+}
+
+#footer i:hover {
+  color:  #737373;
+
+}
+
+.copyright {
+  letter-spacing: .1em;
+  font-size: .8em;
+  opacity: .7;
+}

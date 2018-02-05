@@ -24,9 +24,11 @@
 
 <body class="column">
 
+	<div id=""></div>
+
 	<div id="land-hero" class="row land-hero section">
 		<img class="hero-background" src="https://wallpapercave.com/wp/kSQdCxM.jpg">
-		<div class="text-center container">
+		<div class="hero-content text-center container">
 			<p class="hero-name">XNNNIIIXXXNNIIII</p>
 			<i class="fa fa-user-circle-o aria-hidden="true"></i>
 
@@ -34,21 +36,21 @@
 			<div class="hero-sub">
 
 			</div>
-			<a class="btn" href="">About</a>
+			<a class="btn" href="#about">About
+			</a>
 		</div>
 		
 		<div id="nav">
 			<ul>
-				<li><a>About</a></li>
-				<li><a>Work</a></li>
-				<li><a>Contact</a></li>
+				<li><a href="#portfolio">Work</a></li>
+				<li><a href="#about">About</a></li>
 			</ul>
 		</div>
 		
 	</div>
 
 
-	<div class="about section container" id="about">
+	<div class="section container" id="about">
 
 		<div class="medium-12 text-center">
 			<h2>About</h2>
@@ -57,36 +59,134 @@
 		<div class="grid-x medium-12">
 
 			<div class="cell medium-4 ">
+
 				<div class="grid-y medium-12 about-cell">
-					<div class="medium-6 cell text-center">
-					<i class="fa fa-user-circle-o fa-5x"></i>
+
+					<div class="medium-4 cell text-center about-icon">
+
+						<i class="fa fa-user-circle-o fa-5x"></i>
+
 					</div>
-					<p class="cell medium-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+
+						<p class="cell medium-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+
+					<div class="cell medium-4 grid-y skill-set">
+
+						<p>Photoshop</p>
+
+							<div class="skillbar">
+
+								<span id="skill-line1" class="skillfill1 skill-less"></span>
+
+							</div>
+
+						<p>User Interface</p>
+
+							<div class="skillbar">
+
+								<span id="skill-line2" class="skillfill2 skill-less"></span>
+
+							</div>
+
+						<p>User Experience</p>
+
+							<div class="skillbar">
+
+								<span id="skill-line3" class="skillfill3 skill-less"></span>
+
+							</div>
+
+					</div>
+
 				</div>
+
 			</div>
 
 
 			<div class="cell medium-4">
 				<div class="grid-y medium-12 about-cell">
-					<div class="medium-6 cell text-center">
+					<div class="medium-6 cell text-center about-icon">
 						<i class="fa fa-code fa fa-5x"></i>
 					</div>
 					<p class="cell medium-6"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh. </p>
+
+				<div class="cell medium-4 grid-y skill-set">
+
+						<p>HTML</p>
+
+							<div class="skillbar">
+
+								<span id="skill-line4" class="skillfill1 skill-less"></span>
+
+							</div>
+
+						<p>CSS</p>
+
+							<div class="skillbar">
+
+								<span id="skill-line5" class="skillfill2 skill-less"></span>
+
+							</div>
+
+						<p>Javascript</p>
+
+							<div class="skillbar">
+
+								<span id="skill-line6" class="skillfill3 skill-less"></span>
+
+							</div>
+
+					</div>
+
 				</div>
 			</div>
 
 
 
 			<div class="cell medium-4" >
+
 				<div class="grid-y medium-12 about-cell">
-					<div class="medium-6 cell text-center">
+
+					<div class="medium-6 cell text-center about-icon">
+
 						<i class="fa fa-picture-o fa-5x"></i>
+
 					</div>
 
 			<p class="medium-6 cell">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh. </p>
 
+			<div class="cell medium-4 grid-y skill-set">
+
+						<p>InDesign</p>
+
+							<div class="skillbar">
+
+								<span id="skill-line7" class="skillfill1 skill-less"></span>
+
+							</div>
+
+						<p>Brand Design</p>
+
+							<div class="skillbar">
+
+								<span id="skill-line8" class="skillfill2 skill-less"></span>
+
+							</div>
+
+						<p>Content Management</p>
+
+							<div class="skillbar">
+
+								<span id="skill-line9" class="skillfill3 skill-less"></span>
+
+							</div>
+
 					</div>
+
+					</div>
+
 				</div>
+
 			</div>
 
 		</div>
@@ -116,7 +216,9 @@
 					<!---<a href="" class="modal-close" title="close">close</a>---->
 					<div class="cell medium-4 modalbg1"></div>
 					<div class="cell medium-8 grid-y">
-						<a href="#portfolio" class="modal-close medium-1 cell">Close</a>
+						<a href="#portfolio" class="modal-close medium-1 cell">
+							<i class="fa fa-times fa-2x"></i>
+						</a>
 						<div class="modal-content-container grid-y"> 
 
 							<h3 class="cell medium-3">PROJECT 1</h3>
@@ -147,7 +249,9 @@
 					<!---<a href="" class="modal-close" title="close">close</a>---->
 					<div class="cell medium-4 modalbg1"></div>
 					<div class="cell medium-8 grid-y">
-						<a href="#portfolio" class="modal-close medium-1 cell">Close</a>
+						<a href="#portfolio" class="modal-close medium-1 cell">
+						<i class="fa fa-times fa-2x"></i>
+					</a>
 						<div class="modal-content-container grid-y"> 
 
 							<h3 class="cell medium-3">PROJECT 2</h3>
@@ -179,7 +283,7 @@
 					<!---<a href="" class="modal-close" title="close">close</a>---->
 					<div class="cell medium-4 modalbg1"></div>
 					<div class="cell medium-8 grid-y">
-						<a href="#portfolio" class="modal-close medium-1 cell">Close</a>
+						<a href="#portfolio" class="modal-close medium-1 cell"><i class="fa fa-times fa-2x"></i></a>
 						<div class="modal-content-container grid-y"> 
 
 							<h3 class="cell medium-3">PROJECT 3</h3>
@@ -212,7 +316,7 @@
 
 						<div class="cell medium-4 modalbg1"></div>
 						<div class="cell medium-8 grid-y">
-							<a href="#portfolio" class="modal-close medium-1 cell">Close</a>
+							<a href="#portfolio" class="modal-close medium-1 cell"><i class="fa fa-times fa-2x"></i></a>
 							<div class="modal-content-container grid-y"> 
 
 								<h3 class="cell medium-3">PROJECT 4</h3>
@@ -243,7 +347,7 @@
 						<!---<a href="" class="modal-close" title="close">close</a>---->
 						<div class="cell medium-4 modalbg1"></div>
 						<div class="cell medium-8 grid-y">
-							<a href="#portfolio" class="modal-close medium-1 cell">Close</a>
+							<a href="#portfolio" class="modal-close medium-1 cell"><i class="fa fa-times fa-2x"></i></a>
 							<div class="modal-content-container grid-y"> 
 
 								<h3 class="cell medium-3">PROJECT 5</h3>
@@ -259,6 +363,26 @@
 				</div>
 			</div>
 		</div>
+
+	</div>
+	<div id="footer" class="section">
+		<div class="grid-y medium-12 container text-center">
+			<div class="medium-6">
+				<a href="https://www.linkedin.com/in/alfred-cheadle-iii-0a9868a9/">
+					<i class="fa fa-linkedin"></i>
+				</a>
+				<a href="https://github.com/acheadl1">
+					<i class="fa fa-github"></i>
+				</a>
+				<a href="mailto:acheadl1@kent.edu">
+					<i class="fa fa-envelope"></i>
+				</a>
+			</div>
+			<div class="medium-6">
+				<p class="copyright">© 2018 ALFRED CHEADLE III</p>
+			</div>
+
+
 
 	</div>
 
