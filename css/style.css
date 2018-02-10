@@ -55,12 +55,32 @@ position: relative;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   text-align: center;
+  transition: .2s ease all;
+}
+
+.btn2 {
+
+font-family: Arial;
+color: #ffffff;
+font-size: 19px;
+padding: 10px 20px 10px 20px;
+text-decoration: none;
+text-align: center;
+border: solid 3px #3498db;
+transition: .2s ease all;
+
 }
 
 .btn:hover {
   background: #0069ab;
   text-decoration: none;
 }
+
+.btn2:hover {
+  border: solid 3px #0069ab;
+
+}
+
 .section h2 {
 
 	margin-top: 10vh;
@@ -115,7 +135,6 @@ position: relative;
 .land-hero {
 	padding-top: 25vh;
 	position: relative;
-	text-align: center;
 	height: 100vh;
 	width: 100%;
 	display: table;
@@ -128,20 +147,14 @@ position: relative;
 }
 
 .hero-content {
-left: 25%;
 position: fixed;
 
-
 }
 
-.hero-header {
-	max-width: 50%;
-	text-align: center;
-}
 
 
 .hero-sub {
-	margin-bottom: 100px;
+	margin-bottom: 9vh;
 
 }
 
@@ -214,8 +227,8 @@ margin-bottom: .5rem;
     background:#2187e7; 
     box-shadow:0px 0px 10px 1px;
     position: absolute;
-    transition: width 2s;
-    -webkit-transition: width 2s;
+    transition: width 1s;
+    -webkit-transition: width 1s;
     width: 70%;
 }
 
@@ -224,8 +237,8 @@ margin-bottom: .5rem;
     background:#2187e7; 
     box-shadow:0px 0px 10px 1px;
     position: absolute;
-    transition: width 3s;
-    -webkit-transition: width 3s;
+    transition: width 1.3s;
+    -webkit-transition: width 1.3s;
     width: 75%;
 }
 
@@ -234,9 +247,69 @@ margin-bottom: .5rem;
     background:#2187e7; 
     box-shadow:0px 0px 10px 1px;
     position: absolute;
+    transition: width 1.6s;
+    -webkit-transition: width 1.6s;
+    width: 60%;
+}
+
+.skillfill4 {
+    height: 1vh;
+    background:#2187e7; 
+    box-shadow:0px 0px 10px 1px;
+    position: absolute;
+    transition: width 2s;
+    -webkit-transition: width 2s;
+    width: 85%;
+}
+
+.skillfill5 {
+    height: 1vh;
+    background:#2187e7; 
+    box-shadow:0px 0px 10px 1px;
+    position: absolute;
+    transition: width 2.4s;
+    -webkit-transition: width 2.4s;
+    width: 75%;
+}
+
+.skillfill6 {
+    height: 1vh;
+    background:#2187e7; 
+    box-shadow:0px 0px 10px 1px;
+    position: absolute;
+    transition: width 2.8s;
+    -webkit-transition: width 2.8s;
+    width: 30%;
+}
+
+.skillfill7 {
+    height: 1vh;
+    background:#2187e7; 
+    box-shadow:0px 0px 10px 1px;
+    position: absolute;
+    transition: width 3s;
+    -webkit-transition: width 3s;
+    width: 55%;
+}
+
+.skillfill8 {
+    height: 1vh;
+    background:#2187e7; 
+    box-shadow:0px 0px 10px 1px;
+    position: absolute;
+    transition: width 3.5s;
+    -webkit-transition: width 3.5s;
+    width: 65%;
+}
+
+.skillfill9 {
+    height: 1vh;
+    background:#2187e7; 
+    box-shadow:0px 0px 10px 1px;
+    position: absolute;
     transition: width 4s;
     -webkit-transition: width 4s;
-    width: 60%;
+    width: 70%;
 }
 
 .skill-less {
@@ -354,21 +427,87 @@ height: 100%;
 }
 
 .modalbg1 {
-    background: url(http://magazine.viterbi.usc.edu/wp-content/uploads/BSP_054.jpg) no-repeat center center fixed;
-    background-attachment: fixed;
+    background: url('../projects/kentFoundation.jpg') no-repeat 0px;
     background-size: auto auto;
     overflow: hidden;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
+    animation: modalslide 20s infinite;
+    animation-fill-mode: forwards;
+    opacity: 1;
 }
 
+.modalbg2 {
+    background: url('../projects/kentPortal.jpg') no-repeat 0px;
+    background-size: auto auto;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    animation: modalslide 20s infinite;
+    animation-fill-mode: forwards;
+    opacity: 1;
+}
+
+.modalbg3 {
+    background: url('../projects/kentAuth.jpg') no-repeat 0px;
+    background-size: auto auto;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    animation: modalslide 20s infinite ease;
+    opacity: 1;
+}
+
+.modalbg4 {
+    background: url('../projects/kentDrupal.jpg') no-repeat 0px;
+    background-size: auto auto;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    animation: modalslide 20s infinite ease;
+    opacity: 1;
+}
+
+.modalbg5 {
+    background: url('../projects/awc3GFX.jpg') no-repeat 0px;
+    background-size: auto auto;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    animation: modalslide 20s infinite ease;
+    opacity: 1;
+}
 
 .modal-content-container {
   padding: 5vh;
 	height: 90%;
+
+}
+
+ @keyframes modalslide {
+
+  0% {
+    background-position: 0px;
+  }
+
+  50% {
+    background-position: -350px;
+
+  }
+
+  100% {
+    background-position: 0px;
+  }
 
  }
 
@@ -376,7 +515,7 @@ height: 100%;
 
 #footer {
 background: #D3D3D3;
-height: 10vh;
+height: 15vh;
 opacity: .7;
 }
 
