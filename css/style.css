@@ -2,8 +2,8 @@
 
 body {
 	margin: 0;
-  transition: width 2s;
-    -webkit-transition: width 2s;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
 
 }
 
@@ -93,20 +93,25 @@ transition: .2s ease all;
 
 /*---Nav---*/
 #nav {
-    background: #333;
+    background: #765285;
     bottom: 0;
     overflow: hidden;
     height: 32px;
     z-index: 3;
     width: 100%;
-	display: table;
-	position: absolute;	
+	 display: table;
+	 position: absolute;	
+    -webkit-box-shadow: -4px -25px 54px -10px rgba(0,0,0,0.48);
+    -moz-box-shadow: -4px -25px 54px -10px rgba(0,0,0,0.48);
+    box-shadow: -4px -25px 54px -10px rgba(0,0,0,0.48);
+    transition: all ease .7s;
 }
+
+
+
 #nav ul li {
     border-left: 1px solid #999;
-    border-right: 1px solid #cacaca;
     float:right;
-    font-weight: bold;
     line-height:35px;
     list-style: none;
     text-transform: uppercase;
@@ -124,8 +129,22 @@ transition: .2s ease all;
 .navTop {
 	top: 0;
 	position: fixed !important;
+  background: #333 !important;
+
 }
 
+#nav .logo {
+  float: left;
+  line-height: 35px;
+  font-family: 'Audiowide', cursive;
+  text-transform: uppercase;
+  color: #3498db;
+  transition: 1s ease all;
+}
+
+#nav .logo:hover {
+  color: #a8d6f4;
+}
 
 
 
@@ -138,7 +157,15 @@ transition: .2s ease all;
 	height: 100vh;
 	width: 100%;
 	display: table;
-	position: relative;	
+	position: relative;
+
+}
+
+#particles-js {
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  position: fixed;
 }
 
 .hero-container {
@@ -146,11 +173,34 @@ transition: .2s ease all;
 	margin-right: auto;
 }
 
-.hero-content {
-position: fixed;
+.land-hero h1, .land-hero h2, .land-hero h3, .land-hero h4, .land-hero h5 {
+  color: #ffffff;
+
 
 }
 
+.hero-content {
+position: fixed;
+ animation: herofade  2s ease-out;
+
+
+}
+
+@keyframes herofade {
+
+0% 
+{
+  top: 20vh;
+  opacity: 0;
+}
+
+100%
+{
+  top: 25vh;
+  opacity: 1;
+}
+
+}
 
 
 .hero-sub {
@@ -158,15 +208,10 @@ position: fixed;
 
 }
 
-.hero-name {
-
-
-}
-
 .hero-background {
 	position: fixed;
 	left: 0;
-	z-index: -1;
+	z-index: -10;
 	top: 0;
 	width: 100%;
 	height: 100%;
@@ -175,13 +220,13 @@ position: fixed;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	opacity: .6;
-	background-image: url('https://wallpapercave.com/wp/kSQdCxM.jpg');
+	opacity: 1;
+	background-image: url('https://static.pexels.com/photos/176851/pexels-photo-176851.jpeg');
 
 }
 /*---ABOUT---*/
 #about {
-	background-color: #D3D3D3;
+	background-color: #c4d4e0;
   transition: width 2s;
   -webkit-transition: width 2s;
 
@@ -289,7 +334,7 @@ margin-bottom: .5rem;
     position: absolute;
     transition: width 3s;
     -webkit-transition: width 3s;
-    width: 55%;
+    width: 45%;
 }
 
 .skillfill8 {
@@ -299,7 +344,7 @@ margin-bottom: .5rem;
     position: absolute;
     transition: width 3.5s;
     -webkit-transition: width 3.5s;
-    width: 65%;
+    width: 55%;
 }
 
 .skillfill9 {
@@ -309,7 +354,7 @@ margin-bottom: .5rem;
     position: absolute;
     transition: width 4s;
     -webkit-transition: width 4s;
-    width: 70%;
+    width: 65%;
 }
 
 .skill-less {
@@ -318,6 +363,9 @@ margin-bottom: .5rem;
 
 
 /*---PORTFOLIO---*/
+
+
+
 #portfolio {}
 
 .portfolio {
@@ -511,28 +559,75 @@ height: 100%;
 
  }
 
+
+
 /*--- CONTACT ---*/
 
+
+
 #footer {
-background: #D3D3D3;
 height: 15vh;
-opacity: .7;
+z-index: 10;
+}
+
+#footer div {
+z-index: 10;
+
 }
 
 #footer i {
   margin-top: 2vh;
   margin-left: 1vh;
   transition: all .1s ease;
-  color: 
+  color: #ffffff;
+  z-index: 10;
 }
 
 #footer i:hover {
-  color:  #737373;
-
+  color:  #fefefe;
 }
 
 .copyright {
   letter-spacing: .1em;
   font-size: .8em;
   opacity: .7;
+  color: #ffffff;
+}
+
+
+/* --- MOBILE SCREEN QUERIES --- */
+
+@media screen and (max-width: 39.9375em) {
+
+.modal-content {
+  background-color: #ffffff;
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+
+}
+
+
+.modalbg1 {
+    background: url('../projects/kentFoundation.jpg') no-repeat 0px;
+    background-size: auto auto;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: .2;
+    animation: modalslide 40s infinite;
+    position: fixed;
+    height: 90vh;
+    z-index: 4;
+}
+
+.content-mobile {
+  z-index: 5;
+  background-color: rgb(0, 0, 255, .1);
+}
+
+
+
 }
