@@ -41,18 +41,13 @@ position: relative;
 
 .btn {
   background: #3498db;
-  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-  background-image: -o-linear-gradient(top, #3498db, #2980b9);
-  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  border: solid 3px #3498db;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0px;
   font-family: Arial;
   color: #ffffff;
   font-size: 19px;
-  padding: 10px 20px 10px 20px;
   text-decoration: none;
   text-align: center;
   transition: .2s ease all;
@@ -63,7 +58,6 @@ position: relative;
 font-family: Arial;
 color: #ffffff;
 font-size: 19px;
-padding: 10px 20px 10px 20px;
 text-decoration: none;
 text-align: center;
 border: solid 3px #3498db;
@@ -159,6 +153,10 @@ transition: .2s ease all;
 	display: table;
 	position: relative;
 
+}
+
+.land-hero .btn, .land-hero .btn2 {
+  padding: 10px 20px 10px 20px;
 }
 
 #particles-js {
@@ -476,6 +474,10 @@ height: 100%;
 
 }
 
+.modal-content .fa-chevron-left {
+  color: #3498db;
+}
+
 .modalbg1 {
     background: url('../projects/kentFoundation.jpg') no-repeat 0px;
     background-size: auto auto;
@@ -601,6 +603,20 @@ z-index: 10;
 
 @media screen and (max-width: 39.9375em) {
 
+.modal-content-container h3 {
+  font-size: 2rem;
+}
+
+.modal-close {
+margin-top: 10%
+
+}
+
+.modal-content-container .fa {
+  margin-top: 3%;
+
+}
+
 
 #portfolio .btn {
   margin-top: 5vh;
@@ -639,6 +655,19 @@ z-index: 10;
   color: #000;
   opacity: .7;
 }
+
+
+}
+
+/* --- Tablet, laptops, & Up --- */
+
+@media screen and (min-width: 40em) {
+
+.modal-content-container .fa {
+  margin-top: 6%;
+
+}
+
 
 
 }
