@@ -226,7 +226,7 @@ position: fixed;
 #skillbar {
 margin: 0;
 position: relative;
-margin-bottom: 1vh;
+margin-bottom: 2vh;
 
 
 }
@@ -236,7 +236,7 @@ margin-bottom: 1vh;
 }
 
 .skill-set p {
-margin-top: .5rem;
+margin-top: 1rem;
 margin-bottom: .5rem;
 }
 
@@ -346,8 +346,10 @@ margin-bottom: .5rem;
 
 .about2 {
     background: #F1FF9E;
+    padding: 0 15px 0 15px;
     transition: all 1s ease;
     -webkit-transition: all 1s ease;
+    text-align: center;
 }
 
 .skill-reveal {
@@ -355,27 +357,26 @@ margin-bottom: .5rem;
     -webkit-transition: all .2s ease;
     background: #2187e7;
     z-index: 30;
-    padding: 0 15px 0 15px;
-    height: 100%;
-    transform: translateX(-400px);
-    z-index: 20;
+
 }
 
 .icon-reveal {
     overflow: hidden;
-    width: 100%;
+
+
 }
 
-.icon-reveal:hover .skill-reveal {
-    left: 0;
+.icon-reveal:hover i {
+
+   margin-top:-200px;
+  -webkit-transition: margin .2s;
+  -moz-transition: margin .2s;
+  transition: margin .2s;
+    
 }
 
-.about2 div .text-center {
-    margin-top: -21%;
-}
-
-.icon-reveal:hover .skill-reveal {
-    transform: translateX(0px);
+.icon-reveal i {
+    margin-top: 25%;
 }
 
 /*---PORTFOLIO---*/

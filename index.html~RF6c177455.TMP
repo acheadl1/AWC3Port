@@ -218,51 +218,52 @@
 
         <div class="medium-2 about2 grid-y align-center-middle">
 
-            <div class="medium-2 icon-reveal">
+            <a class="medium-2">
+                
+                <div class="content2">
 
-                <div class="skill-reveal">
+                    <i class="fa fa-user-circle-o fa-5x"></i>
 
-                    <div class="cell medium-4 grid-y skill-set">
+                    <div class="skill-reveal">
+                        
+                        <p>I focus on clean and productive user interaction, optimized for productive experiences across multiple devices.</p>
 
-                        <p>Prototyping</p>
+                        <div class="cell medium-4 grid-y skill-set">
 
-                        <div class="skillbar">
+                            <p>Photoshop</p>
 
-                            <span id="skill-line1" class=" skillfill1 skill-less"></span>
+                            <div class="skillbar">
 
-                        </div>
+                                <span id="skill-line1" class="skillfill1 skill-less"></span>
 
-                        <p>User Interface</p>
+                            </div>
 
-                        <div class="skillbar">
+                            <p>User Interface</p>
 
-                            <span id="skill-line2" class="skillfill2 skill-less"></span>
+                            <div class="skillbar">
 
-                        </div>
+                                <span id="skill-line2" class="skillfill2 skill-less"></span>
 
-                        <p>User Experience</p>
+                            </div>
 
-                        <div class="skillbar">
+                            <p>User Experience</p>
 
-                            <span id="skill-line3" class="skillfill3 skill-less"></span>
+                            <div class="skillbar">
+
+                                <span id="skill-line3" class="skillfill3 skill-less"></span>
+
+                            </div>
 
                         </div>
 
                     </div>
 
-                </div>
-
-                <div class="text-center">
-                    
-                    <i class="fa fa-user-circle-o fa-5x text-center"></i>
 
                 </div>
-                
 
-            </div>
+            </a>
 
-
-            <div class="medium-2">
+                <div class="medium-2">
 
                 <i class="fa fa-code fa fa-5x ali"></i>
 
