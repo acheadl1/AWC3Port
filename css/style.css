@@ -253,7 +253,11 @@ margin-bottom: .5rem;
     position: absolute;
     transition: width 1s;
     -webkit-transition: width 1s;
-    width: 70%;
+    width: 0%;
+}
+
+.icon-reveal:hover .skillfill1 {
+  width: 75%;
 }
 
 .skillfill2 {
@@ -263,7 +267,11 @@ margin-bottom: .5rem;
     position: absolute;
     transition: width 1.3s;
     -webkit-transition: width 1.3s;
-    width: 75%;
+    width: 0%;
+}
+
+.icon-reveal:hover .skillfill2 {
+  width: 80%;
 }
 
 .skillfill3 {
@@ -273,7 +281,11 @@ margin-bottom: .5rem;
     position: absolute;
     transition: width 1.6s;
     -webkit-transition: width 1.6s;
-    width: 60%;
+    width: 0%;
+}
+
+.icon-reveal:hover .skillfill3 {
+  width: 60%;
 }
 
 .skillfill4 {
@@ -281,9 +293,13 @@ margin-bottom: .5rem;
     background:#2187e7; 
     box-shadow:0px 0px 10px 1px;
     position: absolute;
-    transition: width 2s;
-    -webkit-transition: width 2s;
-    width: 85%;
+    transition: width 1s;
+    -webkit-transition: width 1s;
+    width: 0%;
+}
+
+.icon-reveal:hover .skillfill4 {
+  width: 85%;
 }
 
 .skillfill5 {
@@ -291,9 +307,13 @@ margin-bottom: .5rem;
     background:#2187e7; 
     box-shadow:0px 0px 10px 1px;
     position: absolute;
-    transition: width 2.4s;
-    -webkit-transition: width 2.4s;
-    width: 75%;
+    transition: width 1.3s;
+    -webkit-transition: width 1.3s;
+    width: 0%;
+}
+
+.icon-reveal:hover .skillfill5 {
+  width: 75%;
 }
 
 .skillfill6 {
@@ -301,9 +321,13 @@ margin-bottom: .5rem;
     background:#2187e7; 
     box-shadow:0px 0px 10px 1px;
     position: absolute;
-    transition: width 2.8s;
-    -webkit-transition: width 2.8s;
-    width: 30%;
+    transition: width 1.6s;
+    -webkit-transition: width 1.6s;
+    width: 0%;
+}
+
+.icon-reveal:hover .skillfill6 {
+  width: 35%;
 }
 
 .skillfill7 {
@@ -311,9 +335,13 @@ margin-bottom: .5rem;
     background:#2187e7; 
     box-shadow:0px 0px 10px 1px;
     position: absolute;
-    transition: width 3s;
-    -webkit-transition: width 3s;
-    width: 45%;
+    transition: width 1s;
+    -webkit-transition: width 1s;
+    width: 0%;
+}
+
+.icon-reveal:hover .skillfill7 {
+  width: 45%;
 }
 
 .skillfill8 {
@@ -321,9 +349,13 @@ margin-bottom: .5rem;
     background:#2187e7; 
     box-shadow:0px 0px 10px 1px;
     position: absolute;
-    transition: width 3.5s;
-    -webkit-transition: width 3.5s;
-    width: 55%;
+    transition: width 1.3s;
+    -webkit-transition: width 1.3s;
+    width: 0%;
+}
+
+.icon-reveal:hover .skillfill8 {
+  width: 55%;
 }
 
 .skillfill9 {
@@ -331,14 +363,16 @@ margin-bottom: .5rem;
     background:#2187e7; 
     box-shadow:0px 0px 10px 1px;
     position: absolute;
-    transition: width 4s;
-    -webkit-transition: width 4s;
-    width: 65%;
+    transition: width 1.3s;
+    -webkit-transition: width 1.6s;
+    width: 0%;
 }
 
-.skill-less {
-    width: 0;
+.icon-reveal:hover .skillfill9 {
+  width: 65%;
 }
+
+
 
 /* --------
     About 2
@@ -357,7 +391,7 @@ margin-bottom: .5rem;
     z-index: 30;
     padding: 0 15px 0 15px;
     height: 100%;
-    transform: translateX(-400px);
+    transform: translateX(400px);
     z-index: 20;
 }
 
@@ -370,8 +404,8 @@ margin-bottom: .5rem;
     left: 0;
 }
 
-.about2 div .text-center {
-    margin-top: -21%;
+.icon-container {
+    margin-top: -53%;
 }
 
 .icon-reveal:hover .skill-reveal {
