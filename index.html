@@ -12,13 +12,11 @@
     <meta name="description" content="UX/UI & Front-End Developer, optimizing user experiences and learning as much as I can." />
     <meta name="author" content="AWC3port">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- <script type="text/javascript" src="js/action.js"></script> -->
-    <script type="text/javascript" src="js/particles.js"></script>
-
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- CSS PLUGINS -->
     <link rel="stylesheet" type="text/css" href="css/foundation.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/css/iziModal.min.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
 
@@ -246,7 +244,13 @@
 
                             <span id="skill-line3" class="skillfill3 skill-less"></span>
 
-                        </div>
+                        </div>    
+
+                    </div>
+
+                    <div class="text-right">
+                        
+                        <a id="desc1" class="fa fa-info-circle fa-2x"></a>
 
                     </div>
 
@@ -254,10 +258,11 @@
 
                 <div class="text-center icon-container">
                     
-                    <i class="fa fa-user-circle-o fa-5x text-center"></i>
+                    <i class="fa fa-user-circle-o fa-5x text-center fa-about"></i>
 
                 </div>
                 
+
 
             </div>
 
@@ -268,7 +273,7 @@
 
                     <div class="cell medium-4 grid-y skill-set">
 
-                        <p>HTML</p>
+                        <p>HTML/CSS</p>
 
                         <div class="skillbar">
 
@@ -276,7 +281,7 @@
 
                         </div>
 
-                        <p>CSS</p>
+                        <p>Responsive Design</p>
 
                         <div class="skillbar">
 
@@ -298,8 +303,12 @@
 
                 <div class="text-center icon-container">
 
-                    <i class="fa fa-code fa fa-5x ali"></i>
+                    <i class="fa fa-code fa fa-5x fa-about"></i>
 
+                </div>
+
+                <div class="desc-reveal">
+                    
                 </div>
             
             </div>
@@ -310,7 +319,7 @@
 
                     <div class="cell medium-4 grid-y skill-set">
 
-                        <p>InDesign</p>
+                        <p>Graphic Design</p>
 
                         <div class="skillbar">
 
@@ -340,7 +349,7 @@
 
                <div class="text-center icon-container">
 
-                    <i class="fa fa-picture-o fa-5x"></i>
+                    <i class="fa fa-picture-o fa-5x fa-about"></i>
 
                 </div>
 
@@ -352,12 +361,12 @@
 
 
 
-        <div class="medium-8 medium-offset-1">
+        <div class="medium-10">
             <div class="grid-x">
 
                 <!---MODAL 1---->
 
-                <a class="medium-4 thumb" href="#modal-1">
+                <a class="medium-4 thumb" data-izimodal-open="#modal-custom">
                     <div class="dark">
                         <h3 class="thumb-title">Foundation</h3>
                         <img src="projects/kentFoundation.jpg">
@@ -365,32 +374,25 @@
                 </a>
 
 
-                <div id="modal-1" class="modal-window grid-x">
+                <div  id="modal-custom" data-iziModal-group="group1" class="grid-container">
 
-                    <div class="modal-content medium-8 medium-offset-2 grid-x">
+                    <div class="modal-content medium-12 small-12 grid-y">
                         <!---<a href="" class="modal-close" title="close">close</a>---->
-                        <div class="cell medium-4 modalbg1"></div>
-                        <div class="cell medium-8 grid-y content-mobile">
-                            <a href="#portfolio" class="modal-close medium-1 cell">
-                                <i class="fa fa-times fa-2x"></i>
-                            </a>
+                        <button data-iziModal-close class="icon-close">
+                            <i class="fa fa-close"></i>
+                        </button>
+                        <div class="modal-img medium-3">
+                            <img src="projects/kentFoundation.jpg">
+                        </div>
+                        <div class="grid-y content-mobile medium-6">
                             <div class="modal-content-container grid-y ">
 
-                                <h3 class="cell medium-3">KSU Foundation</h3>
-                                <div class="cell medium-7 grid-y">
+                                <h3 class="medium-12">KSU Foundation</h3>
+                                <div class="medium-12 grid-y">
                                     <p>UX/UI - HTML CSS JS</p>
                                     <br>
                                     <p>Redesigned Kent State's "Foundation", a legacy housing application used to handle student housing data.</p>
 
-                                </div>
-
-                                <div class="cell medium-2 grid-x">
-                                    <a class="cell medium-5 btn2 small-5" href="#modal-5">
-                                        <i class="fa fa-chevron-left fa-2x"></i>
-                                    </a>
-                                    <a class="cell medium-offset-2 medium-5 btn small-5 small-offset-2" href="#modal-2">
-                                        <i class="fa fa-chevron-right fa-2x"></i>
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -559,8 +561,158 @@
                         </div>
                     </div>
                 </div>
+
+                <a class="medium-4 thumb" href="#modal-5">
+                    <div class="dark">
+                        <h3 class="thumb-title">Design</h3>
+                        <img src="projects/awc3GFX.jpg">
+                    </div>
+                </a>
+
+                <div id="modal-5" class="modal-window grid-x">
+
+                    <div class="modal-content medium-8 medium-offset-2 grid-x">
+                        <!---<a href="" class="modal-close" title="close">close</a>---->
+                        <div class="cell medium-4 modalbg5 "></div>
+                        <div class="cell medium-8 grid-y content-mobile">
+                            <a href="#portfolio" class="modal-close medium-1 cell"><i class="fa fa-times fa-2x"></i></a>
+                            <div class="modal-content-container grid-y">
+
+                                <h3 class="cell medium-3">Multimedia Design</h3>
+                                <div class="cell medium-7 grid-y">
+                                    <p>Photoshop - InDesign - UI/UX</p>
+                                    <br>
+                                    <p>Handled a range of multimedia projects such as interface development, graphic design and logo/branding creation.</p>
+                                </div>
+                                <div class="cell medium-2 grid-x">
+                                    <a class="cell medium-5 btn2 small-5" href="#modal-4">
+                                        <i class="fa fa-chevron-left fa-2x"></i>
+                                    </a>
+                                    <a class="cell medium-offset-2 medium-5 btn small-5 small-offset-2" href="#modal-1">
+                                        <i class="fa fa-chevron-right fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
+<div class="grid-x" href="#modal-4">
+
+
+                <!--MODAL 4-->
+                <a class="medium-4 thumb" href="#modal-4">
+                    <div class="dark">
+                        <h3 class="thumb-title">KSU Content</h3>
+                        <img src="projects/kentDrupal.jpg">
+                    </div>
+                </a>
+
+                <div id="modal-4" class="modal-window grid-x">
+
+                    <div class="modal-content medium-8 medium-offset-2 grid-x">
+                        <!---<a href="" class="modal-close" title="close">close</a>---->
+
+                        <div class="cell medium-4 modalbg4"></div>
+                        <div class="cell medium-8 grid-y content-mobile">
+                            <a href="#portfolio" class="modal-close medium-1 cell"><i class="fa fa-times fa-2x"></i></a>
+                            <div class="modal-content-container grid-y">
+
+                                <h3 class="cell medium-3">Kent State Housing</h3>
+                                <div class="cell medium-7 grid-y">
+                                    <p>HTML CSS - Drupal</p>
+                                    <br>
+                                    <p>Managed content for Kent State University's Housing site, monitoring and maintaining updated information and user focused development.</p>
+                                    <br>
+                                    <a href="https://www.kent.edu/" target="_blank">Visit</a>
+                                </div>
+                                <div class="cell medium-2 grid-x">
+                                    <a class="cell medium-5 btn2 small-5" href="#modal-3">
+                                        <i class="fa fa-chevron-left fa-2x"></i>
+                                    </a>
+                                    <a class="cell medium-offset-2 medium-5 btn small-5 small-offset-2" href="#modal-5">
+                                        <i class="fa fa-chevron-right fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--MODAL 5-->
+
+                <a class="medium-4 thumb" href="#modal-5">
+                    <div class="dark">
+                        <h3 class="thumb-title">Design</h3>
+                        <img src="projects/awc3GFX.jpg">
+                    </div>
+                </a>
+
+                <div id="modal-5" class="modal-window grid-x">
+
+                    <div class="modal-content medium-8 medium-offset-2 grid-x">
+                        <!---<a href="" class="modal-close" title="close">close</a>---->
+                        <div class="cell medium-4 modalbg5 "></div>
+                        <div class="cell medium-8 grid-y content-mobile">
+                            <a href="#portfolio" class="modal-close medium-1 cell"><i class="fa fa-times fa-2x"></i></a>
+                            <div class="modal-content-container grid-y">
+
+                                <h3 class="cell medium-3">Multimedia Design</h3>
+                                <div class="cell medium-7 grid-y">
+                                    <p>Photoshop - InDesign - UI/UX</p>
+                                    <br>
+                                    <p>Handled a range of multimedia projects such as interface development, graphic design and logo/branding creation.</p>
+                                </div>
+                                <div class="cell medium-2 grid-x">
+                                    <a class="cell medium-5 btn2 small-5" href="#modal-4">
+                                        <i class="fa fa-chevron-left fa-2x"></i>
+                                    </a>
+                                    <a class="cell medium-offset-2 medium-5 btn small-5 small-offset-2" href="#modal-1">
+                                        <i class="fa fa-chevron-right fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="medium-4 thumb" href="#modal-5">
+                    <div class="dark">
+                        <h3 class="thumb-title">Design</h3>
+                        <img src="projects/awc3GFX.jpg">
+                    </div>
+                </a>
+
+                <div id="modal-5" class="modal-window grid-x">
+
+                    <div class="modal-content medium-8 medium-offset-2 grid-x">
+                        <!---<a href="" class="modal-close" title="close">close</a>---->
+                        <div class="cell medium-4 modalbg5 "></div>
+                        <div class="cell medium-8 grid-y content-mobile">
+                            <a href="#portfolio" class="modal-close medium-1 cell"><i class="fa fa-times fa-2x"></i></a>
+                            <div class="modal-content-container grid-y">
+
+                                <h3 class="cell medium-3">Multimedia Design</h3>
+                                <div class="cell medium-7 grid-y">
+                                    <p>Photoshop - InDesign - UI/UX</p>
+                                    <br>
+                                    <p>Handled a range of multimedia projects such as interface development, graphic design and logo/branding creation.</p>
+                                </div>
+                                <div class="cell medium-2 grid-x">
+                                    <a class="cell medium-5 btn2 small-5" href="#modal-4">
+                                        <i class="fa fa-chevron-left fa-2x"></i>
+                                    </a>
+                                    <a class="cell medium-offset-2 medium-5 btn small-5 small-offset-2" href="#modal-1">
+                                        <i class="fa fa-chevron-right fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
@@ -593,5 +745,11 @@
 
         </div>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/action.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/js/iziModal.min.js"></script>
+    <script type="text/javascript" src="js/particles.js"></script>
+
 </body>
 </html>
