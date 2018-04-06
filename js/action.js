@@ -177,12 +177,24 @@ particlesJS("particles-js", {
 
 
 //IZI Modal [START]
+
+/*
 $("#modal-custom").iziModal({
   overlayClose: false,
-  overlayColor: 'rgba(0, 0, 0, 0.6)'
+  overlayColor: 'rgba(0, 0, 0, 0.7)',
+  group: 'group1',
+  loop: true
 
 });
+*/
 
+$(".modal-izi").iziModal({
+  overlayClose: false,
+  overlayColor: 'rgba(0, 0, 0, 0.7)',
+  group: 'group1',
+  loop: true
+
+});
 
 //IZI Modal [End]
 
