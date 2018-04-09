@@ -4,6 +4,8 @@
 
 $(document).ready(function(){
 
+
+//Sticky Header [START]
 /*
   $(window).resize(function(){
     
@@ -57,12 +59,12 @@ $("a").on('click', function(event) {
 
 //Particle JS [START]
 
-/*
+
 
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 100,
+      "value": 90,
       "density": {
         "enable": true,
         "value_area": 800
@@ -87,7 +89,7 @@ particlesJS("particles-js", {
       }
     },
     "opacity": {
-      "value": 0.5,
+      "value": 0.6,
       "random": false,
       "anim": {
         "enable": false,
@@ -115,7 +117,7 @@ particlesJS("particles-js", {
     },
     "move": {
       "enable": true,
-      "speed": 1,
+      "speed": .6,
       "direction": "none",
       "random": false,
       "straight": false,
@@ -170,7 +172,7 @@ particlesJS("particles-js", {
   "retina_detect": true
 });
 
-*/
+
 
 
 //Particle JS [END]
@@ -178,15 +180,6 @@ particlesJS("particles-js", {
 
 //IZI Modal [START]
 
-/*
-$("#modal-custom").iziModal({
-  overlayClose: false,
-  overlayColor: 'rgba(0, 0, 0, 0.7)',
-  group: 'group1',
-  loop: true
-
-});
-*/
 
 $(".modal-izi").iziModal({
   overlayClose: false,
@@ -197,6 +190,27 @@ $(".modal-izi").iziModal({
 });
 
 //IZI Modal [End]
+
+
+//Scroll fade-in
+
+$(window).scroll( function(){
+    
+        $('.fade-in').each( function(i){
+            
+          var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+          var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            if( bottom_of_window > bottom_of_object ){
+
+                $(this).animate({'opacity':'1'},500);
+                    
+            }
+            
+        }); 
+    
+    });
+
 
 
 });

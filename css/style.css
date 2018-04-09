@@ -15,6 +15,19 @@ body:first-child{
 
 }
 
+.fade-in {
+  opacity: 0;
+}
+
+.mh25 {
+  margin-top: 25vh;
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .container {
 padding-right: 15px;
 padding-left: 15px;
@@ -37,6 +50,24 @@ width: 100%;
 display: table;
 position: relative;	
 
+}
+
+.ghost {
+  opacity: .2;
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=20);
+
+  /* Netscape */
+  -moz-opacity: 0.2;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0.2;
+
+  /* Good browsers */
+  opacity: 0.2;
 }
 
 .btn {
@@ -131,20 +162,42 @@ transition: .2s ease all;
 
 }
 
-#nav .logo {
-  float: left;
-  line-height: 35px;
+nav .logo {
   font-family: 'Audiowide', cursive;
   text-transform: uppercase;
   color: #3498db;
   transition: 1s ease all;
 }
 
-#nav .logo:hover {
+nav .logo:hover {
   color: #a8d6f4;
 }
 
+/* Nav2*/
 
+nav {
+  z-index: 50;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  width: 16.66667%;
+}
+
+nav ul {
+  
+  
+  margin-left: .5rem;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  text-align: center;
+  color: #f5f5f5 ;
+  opacity: .7;
+}
 
 
 /* --- Hero --- */
@@ -182,7 +235,13 @@ transition: .2s ease all;
 }
 
 .hero-content {
-position: fixed;
+  position: relative;
+  text-align: center;
+}
+
+.about-content {
+  color: white;
+  height: 100vh;
 }
 
 
@@ -191,6 +250,7 @@ position: fixed;
 	margin-bottom: 9vh;
 
 }
+
 
 .hero-background {
 	position: fixed;
@@ -205,7 +265,7 @@ position: fixed;
 	-o-background-size: cover;
 	background-size: cover;
 	opacity: 1;
-	background-image: url('https://static.pexels.com/photos/176851/pexels-photo-176851.jpeg');
+  background-color: #000;
 
 }
 
@@ -214,7 +274,6 @@ position: fixed;
 
 
 #about {
-	background-color: #c4d4e0;
   transition: width 2s;
   -webkit-transition: width 2s;
 
@@ -388,7 +447,7 @@ margin-bottom: .5rem;
 -------------*/
 
 .about2 {
-    background: rgba(77,47,176,1);
+    background: rgba(77,47,176,.7);
     transition: all 1s ease;
     -webkit-transition: all 1s ease;
     --webkit-box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.75);
@@ -400,7 +459,7 @@ margin-bottom: .5rem;
 .skill-reveal {
     transition: all .2s ease;
     -webkit-transition: all .2s ease;
-    background: #403075;
+    background: rgba(64,48,117, .5);
     z-index: 30;
     padding: 0 15px 0 15px;
     height: 100%;
@@ -476,8 +535,9 @@ margin-bottom: .5rem;
 #portfolio {}
 
 .portfolio {
-	background-color: #887CAF;
+
 }
+
 
 .thumb {
 	display: inline-block;
@@ -842,8 +902,6 @@ Tablet, laptops, & Up -------------------------------------------------- */
 }
 
 .hero-content {
-  left: 30%;
-  top: 30%;
   backface-visibility: hidden;
 }
 
