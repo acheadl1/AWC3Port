@@ -1,7 +1,12 @@
 // Sticky Header [START]
 
+
+
 $(document).ready(function(){
 
+
+//Sticky Header [START]
+/*
   $(window).resize(function(){
     
     var windowHeight = $(window).height();
@@ -22,108 +27,12 @@ $(document).ready(function(){
 
   }).resize();
 
+*/
+
 //Sticky Header [END]
 
 //User Skill Lines [START]
 
-$(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
-    var aboutSection = $("#about");
-    var aboutPosition = aboutSection.offset().top;
-    if (scroll >= aboutPosition) {
-        $("#skill-line1").removeClass("skill-less");
-    } else {
-        $("#skill-line1").addClass("skill-less");
-    }
-});
-
-$(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
-    var aboutSection = $("#about");
-    var aboutPosition = aboutSection.offset().top;
-    if (scroll >= aboutPosition) {
-        $("#skill-line2").removeClass("skill-less");
-    } else {
-        $("#skill-line2").addClass("skill-less");
-    }
-});
-
-$(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
-    var aboutSection = $("#about");
-    var aboutPosition = aboutSection.offset().top;
-    if (scroll >= aboutPosition) {
-        $("#skill-line3").removeClass("skill-less");
-    } else {
-        $("#skill-line3").addClass("skill-less");
-    }
-});
-
-$(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
-    var aboutSection = $("#about");
-    var aboutPosition = aboutSection.offset().top;
-    if (scroll >= aboutPosition) {
-        $("#skill-line4").removeClass("skill-less");
-    } else {
-        $("#skill-line4").addClass("skill-less");
-    }
-});
-
-$(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
-    var aboutSection = $("#about");
-    var aboutPosition = aboutSection.offset().top;
-    if (scroll >= aboutPosition) {
-        $("#skill-line5").removeClass("skill-less");
-    } else {
-        $("#skill-line5").addClass("skill-less");
-    }
-});
-
-$(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
-    var aboutSection = $("#about");
-    var aboutPosition = aboutSection.offset().top;
-    if (scroll >= aboutPosition) {
-        $("#skill-line6").removeClass("skill-less");
-    } else {
-        $("#skill-line6").addClass("skill-less");
-    }
-});
-
-$(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
-    var aboutSection = $("#about");
-    var aboutPosition = aboutSection.offset().top;
-    if (scroll >= aboutPosition) {
-        $("#skill-line7").removeClass("skill-less");
-    } else {
-        $("#skill-line7").addClass("skill-less");
-    }
-});
-
-$(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
-    var aboutSection = $("#about");
-    var aboutPosition = aboutSection.offset().top;
-    if (scroll >= aboutPosition) {
-        $("#skill-line8").removeClass("skill-less");
-    } else {
-        $("#skill-line8").addClass("skill-less");
-    }
-});
-
-$(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
-    var aboutSection = $("#about");
-    var aboutPosition = aboutSection.offset().top;
-    if (scroll >= aboutPosition) {
-        $("#skill-line9").removeClass("skill-less");
-    } else {
-        $("#skill-line9").addClass("skill-less");
-    }
-});
 
 //LinK Smooth Scrolling [START]
 
@@ -151,10 +60,11 @@ $("a").on('click', function(event) {
 //Particle JS [START]
 
 
+
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 100,
+      "value": 90,
       "density": {
         "enable": true,
         "value_area": 800
@@ -179,7 +89,7 @@ particlesJS("particles-js", {
       }
     },
     "opacity": {
-      "value": 0.5,
+      "value": 0.6,
       "random": false,
       "anim": {
         "enable": false,
@@ -207,7 +117,7 @@ particlesJS("particles-js", {
     },
     "move": {
       "enable": true,
-      "speed": 1,
+      "speed": .6,
       "direction": "none",
       "random": false,
       "straight": false,
@@ -264,6 +174,58 @@ particlesJS("particles-js", {
 
 
 
+
 //Particle JS [END]
+
+
+//IZI Modal [START]
+
+
+$(".modal-izi").iziModal({
+  overlayClose: false,
+  overlayColor: 'rgba(0, 0, 0, 0.7)',
+  group: 'group1',
+  loop: true
+
+});
+
+//IZI Modal [End]
+
+
+//Scroll fade-in
+
+$(window).scroll( function(){
+    
+        $('.fade-in').each( function(i){
+            
+          var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+          var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            if( bottom_of_window > bottom_of_object ){
+
+                $(this).animate({'opacity':'1'},500);
+                    
+            }
+            
+        }); 
+    
+    });
+
+$(window).scroll( function(){
+    
+        $('.ghost-in').each( function(i){
+            
+          var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+          var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            if( bottom_of_window > bottom_of_object ){
+
+                $(this).animate({'opacity':'.2'},500);
+                    
+            }
+            
+        }); 
+    
+    });
 
 });

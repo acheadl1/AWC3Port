@@ -1,0 +1,526 @@
+﻿<!doctype html>
+
+<html lang="en">
+<head>
+
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Alfred C | Interactive Designer</title>
+    <meta name="description" content="UX/UI & Front-End Developer, optimizing user experiences and learning as much as I can." />
+    <meta name="author" content="AWC3port">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="js/action.js"></script> -->
+    <script type="text/javascript" src="js/particles.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/foundation.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+<body class="column">
+
+    <div id="land-hero" class="row land-hero section">
+        <div id="particles-js">
+
+            <img class="hero-background">
+        </div>
+        <div class="hero-content container small-12">
+
+            <h5 class="hero-name">Versatility at your command</h5>
+            <h1 class="hero-header">ALFRED W CHEADLE III</h1>
+            <h4 class="hero-sub">Front-End Web Developer and Interactive Designer</h4>
+            <div class="grid-x medium-6 medium-offset-6">
+                <a class="btn2 medium-5" href="projects/AWC3resume.docx">Resume</a>
+                <a class="btn medium-5 medium-offset-2 small-offset-2" href="#about">About</a>
+
+            </div>
+        </div>
+
+        <!--
+        <div id="nav">
+            <a href="#land-hero" class="logo">AWC3</a>
+            <ul>
+                <li><a href="#portfolio">Work</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+        -->
+
+    </div>
+
+
+    <!--
+    <div class="section container" id="about">
+
+        <div class="medium-12 text-center">
+            <h2>About</h2>
+        </div>
+
+        <div class="grid-x medium-12">
+
+            <div class="cell medium-4 ">
+
+                <div class="grid-y medium-12 about-cell">
+
+                    <div class="medium-4 cell text-center about-icon">
+
+                        <i class="fa fa-user-circle-o fa-5x"></i>
+
+                    </div>
+
+                    <p class="cell medium-4">I tend to focus on user-centered design aspects, creating interfaces based on clean interactive principles that are optimized for productive user experiences across multiple applications.</p>
+
+                    <div class="cell medium-4 grid-y skill-set">
+
+                        <p>Photoshop</p>
+
+                        <div class="skillbar">
+
+                            <span id="skill-line1" class=" skillfill1 skill-less"></span>
+
+                        </div>
+
+                        <p>User Interface</p>
+
+                        <div class="skillbar">
+
+                            <span id="skill-line2" class="skillfill2 skill-less"></span>
+
+                        </div>
+
+                        <p>User Experience</p>
+
+                        <div class="skillbar">
+
+                            <span id="skill-line3" class="skillfill3 skill-less"></span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="cell medium-4">
+
+                <div class="grid-y medium-12 about-cell">
+
+                    <div class="medium-6 cell text-center about-icon">
+
+                        <i class="fa fa-code fa fa-5x"></i>
+
+                    </div>
+
+                    <p class="cell medium-6">Prior experiences in design carry over into highly responsive web development, allowing me to execute ideas from conceptual design stages all the into mobile friendly, user accessible websites.</p>
+
+                    <div class="cell medium-4 grid-y skill-set">
+
+                        <p>HTML</p>
+
+                        <div class="skillbar">
+
+                            <span id="skill-line4" class="skillfill4 skill-less"></span>
+
+                        </div>
+
+                        <p>CSS</p>
+
+                        <div class="skillbar">
+
+                            <span id="skill-line5" class="skillfill5 skill-less"></span>
+
+                        </div>
+
+                        <p>Javascript</p>
+
+                        <div class="skillbar">
+
+                            <span id="skill-line6" class="skillfill6 skill-less"></span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="cell medium-4">
+
+                <div class="grid-y medium-12 about-cell">
+
+                    <div class="medium-6 cell text-center about-icon">
+
+                        <i class="fa fa-picture-o fa-5x"></i>
+
+                    </div>
+
+                    <p class="medium-6 cell">
+                        I prioritize versatility with a hunger for learning, crafting a diversified skillset as I go. This has lead me into everything from web content management to brand design and development.
+
+                        <div class="cell medium-4 grid-y skill-set">
+
+                    <p>InDesign</p>
+
+                    <div class="skillbar">
+
+                        <span id="skill-line7" class="skillfill7 skill-less"></span>
+
+                    </div>
+
+                    <p>Brand Design</p>
+
+                    <div class="skillbar">
+
+                        <span id="skill-line8" class="skillfill8 skill-less"></span>
+
+                    </div>
+
+                    <p>Content Management</p>
+
+                    <div class="skillbar">
+
+                        <span id="skill-line9" class="skillfill9 skill-less"></span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+    -->
+
+    <div class="portfolio section grid-x" id="portfolio">
+
+        <!--
+        <div class="medium-12 text-center">
+            <h2>Portfolio</h2>
+        </div>
+        -->
+
+
+        <div class="medium-2 about2 grid-y align-center-middle">
+
+            <a class="medium-2">
+                
+                <div class="content2">
+
+                    <i class="fa fa-user-circle-o fa-5x"></i>
+
+                    <div class="skill-reveal">
+                        
+                        <p>I focus on clean and productive user interaction, optimized for productive experiences across multiple devices.</p>
+
+                        <div class="cell medium-4 grid-y skill-set">
+
+                            <p>Photoshop</p>
+
+                            <div class="skillbar">
+
+                                <span id="skill-line1" class="skillfill1 skill-less"></span>
+
+                            </div>
+
+                            <p>User Interface</p>
+
+                            <div class="skillbar">
+
+                                <span id="skill-line2" class="skillfill2 skill-less"></span>
+
+                            </div>
+
+                            <p>User Experience</p>
+
+                            <div class="skillbar">
+
+                                <span id="skill-line3" class="skillfill3 skill-less"></span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </a>
+
+                <div class="medium-2">
+
+                <i class="fa fa-code fa fa-5x ali"></i>
+
+            </div>
+
+            <div class="medium-2">
+
+                <i class="fa fa-picture-o fa-5x"></i>
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="medium-8 medium-offset-1">
+            <div class="grid-x">
+
+                <!---MODAL 1---->
+
+                <a class="medium-4 thumb" href="#modal-1">
+                    <div class="dark">
+                        <h3 class="thumb-title">Foundation</h3>
+                        <img src="projects/kentFoundation.jpg">
+                    </div>
+                </a>
+
+
+                <div id="modal-1" class="modal-window grid-x">
+
+                    <div class="modal-content medium-8 medium-offset-2 grid-x">
+                        <!---<a href="" class="modal-close" title="close">close</a>---->
+                        <div class="cell medium-4 modalbg1"></div>
+                        <div class="cell medium-8 grid-y content-mobile">
+                            <a href="#portfolio" class="modal-close medium-1 cell">
+                                <i class="fa fa-times fa-2x"></i>
+                            </a>
+                            <div class="modal-content-container grid-y ">
+
+                                <h3 class="cell medium-3">KSU Foundation</h3>
+                                <div class="cell medium-7 grid-y">
+                                    <p>UX/UI - HTML CSS JS</p>
+                                    <br>
+                                    <p>Redesigned Kent State's "Foundation", a legacy housing application used to handle student housing data.</p>
+
+                                </div>
+
+                                <div class="cell medium-2 grid-x">
+                                    <a class="cell medium-5 btn2 small-5" href="#modal-5">
+                                        <i class="fa fa-chevron-left fa-2x"></i>
+                                    </a>
+                                    <a class="cell medium-offset-2 medium-5 btn small-5 small-offset-2" href="#modal-2">
+                                        <i class="fa fa-chevron-right fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!---MODAL 2-->
+
+                <a class="medium-4 thumb" href="#modal-2">
+                    <div class="dark">
+                        <h3 class="thumb-title">Portal Login</h3>
+                        <img src="projects/kentPortal.jpg">
+                    </div>
+                </a>
+
+                <div id="modal-2" class="modal-window grid-x">
+
+                    <div class="modal-content medium-8 medium-offset-2 grid-x">
+                        <!---<a href="" class="modal-close" title="close">close</a>---->
+                        <div class="cell medium-4 modalbg2"></div>
+                        <div class="cell medium-8 grid-y content-mobile">
+                            <a href="#portfolio" class="modal-close medium-1 cell">
+                                <i class="fa fa-times fa-2x"></i>
+                            </a>
+                            <div class="modal-content-container grid-y">
+
+                                <h3 class="cell medium-3">Housing Portal Login</h3>
+                                <div class="cell medium-7 grid-y">
+                                    <p>UI/UX - HTML CSS</p>
+                                    <br>
+                                    <p>Redesigned Kent State's Internal Housing Login Screen, updating styles for desktop, tablet, and mobiles versions alike.<p>
+                                        <br>
+                                        <a href="https://solutions.kent.edu/resserv/Authorization" target="_blank">Visit</a>
+                                </div>
+                                <div class="cell medium-2 grid-x">
+                                    <a class="cell medium-5 btn2 small-5" href="#modal-1">
+                                        <i class="fa fa-chevron-left fa-2x"></i>
+                                    </a>
+                                    <a class="cell medium-offset-2 medium-5 btn small-5 small-offset-2" href="#modal-3">
+                                        <i class="fa fa-chevron-right fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--- MODAL 3-->
+
+
+                <a class="medium-4 thumb" href="#modal-3">
+                    <div class="dark">
+                        <h3 class="thumb-title">Authentication</h3>
+                        <img src="projects/kentAuth.jpg">
+                    </div>
+                </a>
+
+                <div id="modal-3" class="modal-window grid-x">
+
+                    <div class="modal-content medium-8 medium-offset-2 grid-x">
+                        <!---<a href="" class="modal-close" title="close">close</a>---->
+                        <div class="cell medium-4 modalbg3"></div>
+                        <div class="cell medium-8 grid-y content-mobile">
+                            <a href="#portfolio" class="modal-close medium-1 cell"><i class="fa fa-times fa-2x"></i></a>
+                            <div class="modal-content-container grid-y">
+
+                                <h3 class="cell medium-3">Kent Authentication</h3>
+                                <div class="cell medium-7 grid-y">
+                                    <p>CSS</p>
+                                    <br>
+                                    <p>Updated styles and animations for one of Kent's housing authentication sites.</p>
+                                </div>
+                                <div class="cell medium-2 grid-x">
+                                    <a class="cell medium-5 btn2 small-5" href="#modal-2">
+                                        <i class="fa fa-chevron-left fa-2x"></i>
+                                    </a>
+                                    <a class="cell medium-offset-2 medium-5 btn small-5 small-offset-2" href="#modal-4">
+                                        <i class="fa fa-chevron-right fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="grid-x" href="#modal-4">
+
+
+                <!--MODAL 4-->
+                <a class="medium-4 thumb" href="#modal-4">
+                    <div class="dark">
+                        <h3 class="thumb-title">KSU Content</h3>
+                        <img src="projects/kentDrupal.jpg">
+                    </div>
+                </a>
+
+                <div id="modal-4" class="modal-window grid-x">
+
+                    <div class="modal-content medium-8 medium-offset-2 grid-x">
+                        <!---<a href="" class="modal-close" title="close">close</a>---->
+
+                        <div class="cell medium-4 modalbg4"></div>
+                        <div class="cell medium-8 grid-y content-mobile">
+                            <a href="#portfolio" class="modal-close medium-1 cell"><i class="fa fa-times fa-2x"></i></a>
+                            <div class="modal-content-container grid-y">
+
+                                <h3 class="cell medium-3">Kent State Housing</h3>
+                                <div class="cell medium-7 grid-y">
+                                    <p>HTML CSS - Drupal</p>
+                                    <br>
+                                    <p>Managed content for Kent State University's Housing site, monitoring and maintaining updated information and user focused development.</p>
+                                    <br>
+                                    <a href="https://www.kent.edu/" target="_blank">Visit</a>
+                                </div>
+                                <div class="cell medium-2 grid-x">
+                                    <a class="cell medium-5 btn2 small-5" href="#modal-3">
+                                        <i class="fa fa-chevron-left fa-2x"></i>
+                                    </a>
+                                    <a class="cell medium-offset-2 medium-5 btn small-5 small-offset-2" href="#modal-5">
+                                        <i class="fa fa-chevron-right fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--MODAL 5-->
+
+                <a class="medium-4 thumb" href="#modal-5">
+                    <div class="dark">
+                        <h3 class="thumb-title">Design</h3>
+                        <img src="projects/awc3GFX.jpg">
+                    </div>
+                </a>
+
+                <div id="modal-5" class="modal-window grid-x">
+
+                    <div class="modal-content medium-8 medium-offset-2 grid-x">
+                        <!---<a href="" class="modal-close" title="close">close</a>---->
+                        <div class="cell medium-4 modalbg5 "></div>
+                        <div class="cell medium-8 grid-y content-mobile">
+                            <a href="#portfolio" class="modal-close medium-1 cell"><i class="fa fa-times fa-2x"></i></a>
+                            <div class="modal-content-container grid-y">
+
+                                <h3 class="cell medium-3">Multimedia Design</h3>
+                                <div class="cell medium-7 grid-y">
+                                    <p>Photoshop - InDesign - UI/UX</p>
+                                    <br>
+                                    <p>Handled a range of multimedia projects such as interface development, graphic design and logo/branding creation.</p>
+                                </div>
+                                <div class="cell medium-2 grid-x">
+                                    <a class="cell medium-5 btn2 small-5" href="#modal-4">
+                                        <i class="fa fa-chevron-left fa-2x"></i>
+                                    </a>
+                                    <a class="cell medium-offset-2 medium-5 btn small-5 small-offset-2" href="#modal-1">
+                                        <i class="fa fa-chevron-right fa-2x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    </div>
+
+
+    <div id="footer">
+        <div class="grid-y medium-12 container text-center">
+            <div class="medium-6">
+                <a href="https://www.linkedin.com/in/alfred-cheadle-iii-0a9868a9/">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/acheadl1">
+                    <i class="fa fa-github"></i>
+                </a>
+                <a href="mailto:acheadl1@kent.edu">
+                    <i class="fa fa-envelope"></i>
+                </a>
+            </div>
+            <div class="medium-6">
+                <p class="copyright">
+                    acheadl1@kent.edu <br>
+                    By Alfred Cheadle III © 2018
+                </p>
+            </div>
+
+
+
+        </div>
+    </div>
+</body>
+</html>
