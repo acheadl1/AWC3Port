@@ -1,9 +1,18 @@
 /*--- GENERAL ---*/
 
+body, html {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  min-width: 100%;
+  height: auto;
+}
+
 body {
 	margin: 0;
   transition: all 1s ease;
   -webkit-transition: all 1s ease;
+  background: #000;
 
 }
 
@@ -15,7 +24,7 @@ body:first-child{
 
 }
 
-.fade-in {
+.fade-in, .ghost-in {
   opacity: 0;
 }
 
@@ -447,7 +456,7 @@ margin-bottom: .5rem;
 -------------*/
 
 .about2 {
-    background: rgba(77,47,176,.7);
+    background: rgba(77,47,176,.5);
     transition: all 1s ease;
     -webkit-transition: all 1s ease;
     --webkit-box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.75);
@@ -836,6 +845,8 @@ z-index: 10;
 
 @media screen and (max-width: 39.9375em) {
 
+/*
+
 .modal-content-container h3 {
   font-size: 2rem;
 }
@@ -888,7 +899,10 @@ margin-top: 10%
   color: #000;
   opacity: .7;
 }
-
+*/
+.mid-only {
+  display: none !important;
+}
 
 }
 
@@ -903,6 +917,10 @@ Tablet, laptops, & Up -------------------------------------------------- */
 
 .hero-content {
   backface-visibility: hidden;
+}
+
+.small-only {
+  display: none;
 }
 
 
