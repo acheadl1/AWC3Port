@@ -182,7 +182,7 @@ particlesJS("particles-js", {
 
 
 $(".modal-izi").iziModal({
-  overlayClose: false,
+  overlayClose: true,
   overlayColor: 'rgba(0, 0, 0, 0.7)',
   group: 'group1',
   loop: true
